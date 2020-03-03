@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EmployeeList"></activity>
-        <activity android:name=".FilterEmployee" />
+        <activity android:name=".NewEmployeeActivity"></activity>
+        <activity android:name=".FilterEmployeeActivity" />
+        <activity android:name=".DeleteEmployeeActivity" />
+        <activity android:name=".UpdateEmployeeActivity" />
+        <activity android:name=".EmployeeListActivity" />
+        <activity android:name=".EmployeeDetailsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

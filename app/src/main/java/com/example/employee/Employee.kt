@@ -1,13 +1,13 @@
 package com.example.employee
 
-data class Employees(
+data class Employee(
     var firstName : String,
     var lastName : String,
     var streetAddress : String,
     var city : String,
     var state : String,
     var zip: String,
-    var taxId : String,
+    var taxID : String,
     var position : String,
     var department : String
 )
